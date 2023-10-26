@@ -5,7 +5,8 @@
 waga = float(input("Podaj wagę: [kg] "))
 wzrost = float(input('Podaj wzrost: [cm] '))
 
-wzrost = wzrost / 100
+# wzrost = wzrost / 100
+wzrost /= 100
 
 bmi = waga / (wzrost**2)
 
