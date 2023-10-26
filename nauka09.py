@@ -17,6 +17,7 @@ zdanie = "Ala ma kota"
 # print("kot" in zdanie)
 print(f'{"kot" in zdanie = }')
 print(f'{"pies" in zdanie = }')
+print(f'{"mysz" not in zdanie = }')
 
 print(type("abc"))
 print(type(123))
@@ -29,7 +30,3 @@ print(type(None))
 # Typ logiczny
 # bool
 # Boole -> boolean -> bool
-
-
-
-

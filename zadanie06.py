@@ -1,6 +1,12 @@
 tekst = input("Napisz cokolwiek: ")
 
-if "a" in tekst:
-    print("Tak, jest 'a'")
-else:
+dlugosc_tekstu = len(tekst)
+
+print(f'{dlugosc_tekstu = }')
+
+print(f'{len(tekst) = }')
+
+if "a" not in tekst:
     print("Nie ma 'a'")
+else:
+    print("Tak, jest 'a'")
