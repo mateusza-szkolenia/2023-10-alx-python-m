@@ -24,6 +24,13 @@ print(type(123))
 print(type(123.5))
 print(type(True))
 
+# liczba 0 --> False
+# każda inna --> True
+
+print(f'{bool(123) = }')
+print(f'{bool(-123) = }')
+print(f'{bool(0) = }')
+
 print(None)
 print(type(None))
 
