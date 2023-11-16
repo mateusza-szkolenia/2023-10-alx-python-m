@@ -16,7 +16,9 @@ pozycja_at = email.find('@')
 
 pierwsza_litera_domeny = email[pozycja_at + 1]
 
-ocenzurowany_email = pierwsza_litera + '_' * (pozycja_at - 1) + '@' + pierwsza_litera_domeny
+dlugosc_domeny = 30 # TODO: zamienić na obliczenie
+
+ocenzurowany_email = pierwsza_litera + '_' * (pozycja_at - 1) + '@' + pierwsza_litera_domeny + '_' * dlugosc_domeny
 
 print(f"Twój email to: {ocenzurowany_email}")
 
