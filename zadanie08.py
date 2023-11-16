@@ -8,7 +8,7 @@ waga_mnoznik = 1
 if waga.endswith('kg'):
     print(f"Podałeś wagę w kilogramach: [{waga}]")
     waga = waga.removesuffix('kg')
-elif waga.endswith('g'):
+if waga.endswith('g'):
     print(f"Podałeś wagę w gramach: [{waga}]")
     waga = waga.removesuffix('g')
     waga_mnoznik = 0.001
