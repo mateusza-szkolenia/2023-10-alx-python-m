@@ -14,7 +14,9 @@ pierwsza_litera = email[0]
 
 pozycja_at = email.find('@')
 
-ocenzurowany_email = pierwsza_litera + '_' * (pozycja_at - 1)
+pierwsza_litera_domeny = email[pozycja_at + 1]
+
+ocenzurowany_email = pierwsza_litera + '_' * (pozycja_at - 1) + '@' + pierwsza_litera_domeny
 
 print(f"Twój email to: {ocenzurowany_email}")
 
