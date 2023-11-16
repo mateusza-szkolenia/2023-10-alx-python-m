@@ -10,5 +10,9 @@ Napisać program, który:
 
 email = input("Podaj email: ")
 
-print(f"Twój email to: {email}")
+pierwsza_litera = email[0]
+
+ocenzurowany_email = pierwsza_litera + 'XXXXX'
+
+print(f"Twój email to: {ocenzurowany_email}")
 
