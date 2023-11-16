@@ -12,7 +12,9 @@ email = input("Podaj email: ")
 
 pierwsza_litera = email[0]
 
-ocenzurowany_email = pierwsza_litera + 'XXXXX'
+pozycja_at = email.find('@')
+
+ocenzurowany_email = pierwsza_litera + '_' * (pozycja_at - 1)
 
 print(f"Twój email to: {ocenzurowany_email}")
 
