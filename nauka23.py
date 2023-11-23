@@ -14,3 +14,5 @@ for imie in imiona:
     dlugosc_imienia = len(imie)
     print(f'* {imie} {dlugosc_imienia}')
 print("---KONIEC---")
+
+# TODO: napisać sumaryczną liczbę liter
