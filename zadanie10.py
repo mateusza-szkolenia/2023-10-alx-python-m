@@ -11,4 +11,6 @@ miesiace = ['styczeń',
 
 numer_miesiaca = int(input("Podaj numer miesiąca: "))
 
-print(miesiace[numer_miesiaca])
+print(miesiace[numer_miesiaca - 1])
+
+# https://en.wikipedia.org/wiki/Off-by-one_error
