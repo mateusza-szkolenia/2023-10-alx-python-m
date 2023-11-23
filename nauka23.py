@@ -11,6 +11,6 @@ imiona = [
 
 print("Lista uczniów:")
 for imie in imiona:
-    # TODO: przy każdej osobie napisać długość imienia
-    print(f'* {imie}')
+    dlugosc_imienia = len(imie)
+    print(f'* {imie} {dlugosc_imienia}')
 print("---KONIEC---")
