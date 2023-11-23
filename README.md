@@ -23,7 +23,7 @@
    - Dlaczego w programowaniu używa się różnych typów i co to właściwie znaczy?
    - Podstawowe typy w Pythonie: ~~napis~~, ~~liczba całkowita i z ułamkiem~~, wartość logiczna
    - ~~Jak zmienić typ i co się dzieje, gdy użyjemy niewłaściwego typu~~
-7. Operatory (~~arytmetyczne~~, ~~porównania~~, logiczne)
+7. Operatory (~~arytmetyczne~~, ~~porównania~~, ~~logiczne~~)
 8. ~~Instrukcje warunkowe: ich budowa i zastosowanie~~
 9. Pętle, czyli wielokrotne powtarzanie fragmentu programu:
    - jakie są rodzaje pętli
@@ -37,3 +37,7 @@
     - słowniki
     - wykorzystanie typów sekwencyjnych w pętlach
 11. Pisanie prostych algorytmów i programistyczne rozwiązywanie łamigłówek
+
+## Do przeczytania
+
+- [PEP-8](https://peps.python.org/pep-0008/) - rekomendacja dot. stylu formatowania kodu
