@@ -9,6 +9,6 @@ miesiace = ['styczeń',
             'wrzesień',
             'październik']
 
-numer_miesiaca = input("Podaj numer miesiąca: ")
+numer_miesiaca = int(input("Podaj numer miesiąca: "))
 
 print(miesiace[numer_miesiaca])
