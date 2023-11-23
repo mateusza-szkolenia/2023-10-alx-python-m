@@ -10,7 +10,8 @@ miesiace = [None,
             'wrzesień',
             'październik',
             'listopad',
-            'grudzień']
+            'grudzień',
+            ]
 
 numer_miesiaca = int(input("Podaj numer miesiąca: "))
 
