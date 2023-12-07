@@ -30,9 +30,16 @@ print(f'sumaryczna długość: {wynik}')
 print(f'{max_dlugosc = }')
 print(f'{min_dlugosc = }')
 
+print("Najkrótsze:")
 for imie in imiona:
     if len(imie) == min_dlugosc:
         print(f'{imie} NAJKRÓTSZE')
+
+print("Męskie: (bez a na końcu)")
+for imie in imiona:
+    if not imie.endswith('a'):
+        print(f'- {imie}')
+
 
 # TODO:
 #  - napisać sumaryczną liczbę liter
