@@ -11,17 +11,20 @@ imiona = [
 
 wynik = 0
 max_dlugosc = 0
+min_dlugosc = 99999
 print("Lista uczniów:")
 for imie in imiona:
     dlugosc_imienia = len(imie)
     if dlugosc_imienia > max_dlugosc:
         max_dlugosc = dlugosc_imienia
+    if dlugosc_imienia < min_dlugosc:
+        min_dlugosc = dlugosc_imienia
     wynik += dlugosc_imienia
     print(f'* {imie} {dlugosc_imienia} ({wynik = })')
 print("---KONIEC---")
 print(f'sumaryczna długość: {wynik}')
 print(f'{max_dlugosc = }')
-
+print(f'{min_dlugosc = }')
 # TODO:
 #  - napisać sumaryczną liczbę liter
 #  - napisać długość najdłuższego imienia
