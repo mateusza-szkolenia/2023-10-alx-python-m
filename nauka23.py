@@ -10,13 +10,17 @@ imiona = [
 ]
 
 wynik = 0
+max_dlugosc = 0
 print("Lista uczniów:")
 for imie in imiona:
     dlugosc_imienia = len(imie)
+    if dlugosc_imienia > max_dlugosc:
+        max_dlugosc = dlugosc_imienia
     wynik += dlugosc_imienia
     print(f'* {imie} {dlugosc_imienia} ({wynik = })')
 print("---KONIEC---")
-print(wynik)
+print(f'sumaryczna długość: {wynik}')
+print(f'{max_dlugosc = }')
 
 # TODO:
 #  - napisać sumaryczną liczbę liter
