@@ -13,3 +13,5 @@
 
 for n in range(5):
     print((7 - n) * '.' + (2 * n + 1) * "*" )
+for n in range(3, 7):
+    print((7 - n) * '.' + (2 * n + 1) * "*" )
