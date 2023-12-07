@@ -1,11 +1,14 @@
 imiona = [
     'Adam',
+    'Ola',
     'Mateusz',
     'Michał',
     'Iwo',
     'Stanisław',
     'Artem',
+    'Władysław',
     'Karina',
+    'Ala',
     'Maria',
 ]
 
