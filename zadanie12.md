@@ -20,11 +20,11 @@ Wykorzystując pętlę `for` in funkcję `range()` "narysować" na ekranie trój
 trójkąt symetryczny
 
 ```
-       *
-      ***
-     *****
-    *******
-   *********
+.......*
+......***
+.....*****
+....*******
+...*********
 ```
 
 
