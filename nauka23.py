@@ -1,6 +1,6 @@
 imiona = [
-    'Mateusz',
     'Adam',
+    'Mateusz',
     'Michał',
     'Iwo',
     'Stanisław',
