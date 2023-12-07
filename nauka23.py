@@ -12,6 +12,7 @@ imiona = [
 wynik = 0
 max_dlugosc = 0
 min_dlugosc = None
+# min_dlugosc = len(imiona[0])
 print("Lista uczniów:")
 for imie in imiona:
     dlugosc_imienia = len(imie)
