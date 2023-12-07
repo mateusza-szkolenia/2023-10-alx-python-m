@@ -9,11 +9,14 @@ imiona = [
     'Maria',
 ]
 
+wynik = 0
 print("Lista uczniów:")
 for imie in imiona:
     dlugosc_imienia = len(imie)
-    print(f'* {imie} {dlugosc_imienia}')
+    wynik += dlugosc_imienia
+    print(f'* {imie} {dlugosc_imienia} ({wynik = })')
 print("---KONIEC---")
+print(wynik)
 
 # TODO:
 #  - napisać sumaryczną liczbę liter
