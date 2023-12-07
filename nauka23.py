@@ -29,6 +29,11 @@ print("---KONIEC---")
 print(f'sumaryczna długość: {wynik}')
 print(f'{max_dlugosc = }')
 print(f'{min_dlugosc = }')
+
+for imie in imiona:
+    if len(imie) == min_dlugosc:
+        print(f'{imie} NAJKRÓTSZE')
+
 # TODO:
 #  - napisać sumaryczną liczbę liter
 #  - napisać długość najdłuższego imienia
