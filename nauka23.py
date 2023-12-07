@@ -11,13 +11,13 @@ imiona = [
 
 wynik = 0
 max_dlugosc = 0
-min_dlugosc = 99999
+min_dlugosc = None
 print("Lista uczniów:")
 for imie in imiona:
     dlugosc_imienia = len(imie)
     if dlugosc_imienia > max_dlugosc:
         max_dlugosc = dlugosc_imienia
-    if dlugosc_imienia < min_dlugosc:
+    if min_dlugosc is None or dlugosc_imienia < min_dlugosc:
         min_dlugosc = dlugosc_imienia
     wynik += dlugosc_imienia
     print(f'* {imie} {dlugosc_imienia} ({wynik = })')
