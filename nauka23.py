@@ -40,7 +40,6 @@ for imie in imiona:
     if not imie.endswith('a'):
         print(f'- {imie}')
 
-
 # TODO:
 #  - napisać sumaryczną liczbę liter
 #  - napisać długość najdłuższego imienia
