@@ -14,3 +14,33 @@ Wykorzystując pętlę `for` in funkcję `range()` "narysować" na ekranie trój
 *********
 **********
 ```
+
+# zadanie 2
+
+trójkąt symetryczny
+
+```
+       *
+      ***
+     *****
+    *******
+   *********
+```
+
+
+# zadanie 3
+Choinka:
+
+```
+       *
+      ***
+     *****
+    *******
+   *********
+     *****
+    *******
+   *********
+  ***********
+ *************
+      ***
+```
