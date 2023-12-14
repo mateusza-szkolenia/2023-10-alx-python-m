@@ -6,8 +6,7 @@ uczniowie = [
 ]
 
 for uczen in uczniowie:
-    print(uczen['imie'])
-    for ocena in uczen['oceny']:
-        print(ocena)
-
-# przy każdym uczniu napisać jego średnią
+    imie = uczen['imie']
+    oceny = uczen['oceny']
+    srednia = sum(oceny) / len(oceny)
+    print(f'{imie} {srednia}')
