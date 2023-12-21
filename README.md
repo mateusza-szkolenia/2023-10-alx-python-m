@@ -25,12 +25,12 @@
    - ~~Jak zmienić typ i co się dzieje, gdy użyjemy niewłaściwego typu~~
 7. Operatory (~~arytmetyczne~~, ~~porównania~~, ~~logiczne~~)
 8. ~~Instrukcje warunkowe: ich budowa i zastosowanie~~
-9. Pętle, czyli wielokrotne powtarzanie fragmentu programu:
-   - jakie są rodzaje pętli
-   - możliwości jakie można uzyskać dzięki zastosowaniu pętli
-   - kiedy używać której pętli
-   - zagrożenia
-10. Typy sekwencyjne:
+9. ~~Pętle, czyli wielokrotne powtarzanie fragmentu programu:~~
+   - ~~jakie są rodzaje pętli~~
+   - ~~możliwości jakie można uzyskać dzięki zastosowaniu pętli~~
+   - ~~kiedy używać której pętli~~
+   - ~~zagrożenia~~
+10. ~~Typy sekwencyjne:~~
     - typ napisowy
     - listy
     - zbiory
