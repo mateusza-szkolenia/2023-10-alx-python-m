@@ -21,5 +21,6 @@ while True:
         print("Hurra! Zgadłem!")
         break
     print("NIE ROZUMIEM")
+    licznik -= 1
 print(f"Koniec {licznik}")
 
