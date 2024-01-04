@@ -41,3 +41,7 @@
 ## Do przeczytania
 
 - [PEP-8](https://peps.python.org/pep-0008/) - rekomendacja dot. stylu formatowania kodu
+
+## Dodatkowe paczki do Pythona
+
+- [Python Package Index](https://pypi.org/) - dodatkowe paczki

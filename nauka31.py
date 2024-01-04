@@ -1,5 +1,8 @@
-import urllib.request
-import json
+# zmiana na użycie requests
+# wymaga zainstalowania za pomocą pip:
+# py -m pip install requests
+
+import requests
 from pprint import pprint
 
 # inny moduł do obsługi pobierania z internetu:
@@ -13,8 +16,7 @@ topCount = 10
 
 url = f'http://api.nbp.pl/api/exchangerates/rates/{table}/{code}/last/{topCount}/?format=json'
 
-with urllib.request.urlopen(url) as odpowiedz_serwera:
-    wynik = json.load(odpowiedz_serwera)
+wynik = requests.get(url).json()
 
 print(wynik)
 
