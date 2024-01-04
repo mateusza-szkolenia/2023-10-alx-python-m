@@ -1,8 +1,12 @@
-...
-...
-...
+"""
+Prezentacja przypisywania wielu zmiennych, operacji na zbiorach itp
+"""
+
+# pylint: disable=C0103
+
 a = 10
 b = 90
+
 # chciałybm zamienić je miejscami
 # chcę osiągnąć sytuację, że a == 90 a b == 10
 
@@ -24,4 +28,3 @@ oceny = [5, 4, 3, 5, 89, 234, 123]
 matematyka, polski, wf, *_ = oceny
 
 print(f'{matematyka = } {polski = } {wf = }')
-
