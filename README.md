@@ -45,3 +45,8 @@
 ## Dodatkowe paczki do Pythona
 
 - [Python Package Index](https://pypi.org/) - dodatkowe paczki
+
+# Ankieta końcowa:
+
+- sala: <https://www.alx.pl/ankiety/6075deln>
+- zdalni: <https://www.alx.pl/ankiety/6076lmwy>
