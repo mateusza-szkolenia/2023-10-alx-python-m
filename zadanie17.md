@@ -1,0 +1,4 @@
+# Łamigówka
+
+Policzyć sumę cyfr liczby 6137812638712637812634882563423842568428
+
